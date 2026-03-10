@@ -3,16 +3,15 @@ node_modules
 dist
 /*.raweasy.json
 *.bettereasy.json
-.vscode
 tmp
 temp.tsx
 tmp.json
 tmp*
 *.diff.png
-.env
 .DS_Store
 search-result.json
 playwright-report
 test-results
 *.glb
 .bun-test-plan/
+config.bat

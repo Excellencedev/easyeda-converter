@@ -1,7 +1,7 @@
 {
   "name": "easyeda",
   "type": "module",
-  "version": "0.0.242",
+  "version": "0.0.247",
   "files": [
     "dist"
   ],
@@ -13,7 +13,7 @@
   "scripts": {
     "test": "bun test",
     "cli": "bun cli/main.ts",
-    "build": "tsup",
+    "build": "node init && tsup",
     "aider": "aider",
     "format:check": "biome format .",
     "format": "biome format . --write",
@@ -42,11 +42,13 @@
     "bun-match-svg": "^0.0.13",
     "circuit-json-to-gltf": "^0.0.35",
     "circuit-to-svg": "^0.0.333",
+    "dotenv": "^8.2.0",
     "looks-same": "^9.0.1",
+    "node-fetch": "^3.3.2",
     "poppygl": "^0.0.16",
     "transformation-matrix": "^2.16.1",
-    "tsup": "^8.5.0",
-    "tscircuit": "^0.0.1465"
+    "tscircuit": "^0.0.1465",
+    "tsup": "^8.5.0"
   },
   "peerDependencies": {
     "typescript": "^5.5.2",
